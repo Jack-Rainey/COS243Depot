@@ -1,3 +1,5 @@
+.PHONY run migrate seed
+
 run:
 	./bin/dev
 
