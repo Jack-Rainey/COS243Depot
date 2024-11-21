@@ -9,4 +9,12 @@
     <%= line_item.cart_id %>
   </p>
 
+  <tr>
+    <td class="text-right"><%= line_item.quanity %></td>
+    <td>&times;</td>
+    <td class="pr-2">
+      <%= number_to_currency(line_item.total_price) %>
+    </td>
+  </tr>
+
 </div>
