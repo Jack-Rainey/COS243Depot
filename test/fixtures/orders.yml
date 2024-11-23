@@ -12,10 +12,10 @@
 #
 
 one:
-  name: MyString
+  name: Dalinar Kholin
   address: MyText
-  email: MyString
-  pay_type: 1
+  email: dalinar@radiant.org
+  pay_type: Check
 
 two:
   name: MyString
