@@ -6,7 +6,7 @@ class Pago
         case payment_method
         when :check
             Rails.logger.info "Processing check: " +
-                payment_details.fetch(:routung).to_s + "/" +
+                payment_details.fetch(:routing).to_s + "/" +
                 payment_details.fetch(:account).to_s
         when :credit_card
             Rails.logger.info "Processing credit card: " +
