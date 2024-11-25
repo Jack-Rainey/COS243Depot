@@ -1,0 +1,10 @@
+<h3>GoofyBox Order Shipped</h3>
+
+<p>
+We have recently shipped your order.
+</p>
+
+<table>
+  <tr><th colspan="2">Qty</th></tr>
+  <%= render @order.line_items -%>
+</table>

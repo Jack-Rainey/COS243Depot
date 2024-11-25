@@ -1,0 +1,9 @@
+Dear <%= @order.name %>
+
+Thank you for ordering from GoofyBox Readables.
+
+Your order contains the following items:
+
+<%= render @order.line_items -%>
+
+We will send you another email when your order ships.
