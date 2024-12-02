@@ -64,7 +64,7 @@ class OrdersTest < ApplicationSystemTestCase
 
     perform_enqueued_jobs
     perform_enqueued_jobs
-    perform_enqueued_jobs 2
+    assert_performed_jobs 2
 
     orders = Order.all
     assert_equal 1, orders.size
